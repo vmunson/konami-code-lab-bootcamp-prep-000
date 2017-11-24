@@ -18,13 +18,15 @@ function onKeyDownHandler(e) {
 
       index = 0;
     }
-  } else 
+  } else {
     index = 0;
   }
 }
-document.body.addEventListener(`keydown`, onKeyDownHandler()){
-  if(){
-    alert()
+var input = document.body
+input.addEventListener(`keydown`, onKeyDownHandler()){
+  if(input.which === code){
+    alert("Yay!")
+    
   }
 }
 
